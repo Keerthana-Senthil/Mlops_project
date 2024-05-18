@@ -20,7 +20,5 @@ This project leverages a complete MLOps pipeline to predict avocado prices using
 - Prometheus
 - Grafana
 
-## Installation Guide
-
-### Clone the Repository
+# Report is attached in depth
 
