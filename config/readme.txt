@@ -1,6 +1,6 @@
 This project involves the following setup
 1) Desktop Docker configuration
-2) Airflow configuration
+2) Airflow configurations
 3) Prometheus Configuration
 4) Grafana Configuration
 5) Make sure to configure the environment variable path as follows:
