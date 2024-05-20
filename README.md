@@ -14,11 +14,13 @@ This project leverages a complete MLOps pipeline to predict avocado prices using
 ## Prerequisites
 - Docker
 - Python 3.8+
-- Apache Spark 3.x
-- Apache Airflow 2.x
+- Apache Spark 3.4
+- Apache Airflow 2.9
 - MLFlow
 - Prometheus
 - Grafana
 
-# Report is attached in depth
+# Report is attached in depth as pdf
+
+# Presentation ppt is also in the github repo
 
