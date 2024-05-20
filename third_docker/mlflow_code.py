@@ -41,7 +41,7 @@ target = data['AveragePrice']
 # Split data
 X_train, X_test, y_train, y_test = train_test_split(df_dummies, target, test_size=0.30, random_state=42)
 
-# Standardize data
+# Standardize data pipeline
 cols_to_std = ['Total Volume', '4046', '4225', '4770', 'Total Bags', 'Small Bags', 'Large Bags', 'XLarge Bags']
 scaler = StandardScaler()
 X_train[cols_to_std] = scaler.fit_transform(X_train[cols_to_std])
