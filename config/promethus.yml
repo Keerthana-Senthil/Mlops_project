@@ -1,0 +1,17 @@
+global:
+  scrape_interval: 15s
+
+scrape_configs:
+
+  - job_name: 'fastapi'
+  # Override the global default and scrape targets from this job every 15 seconds.
+    scrape_interval: 15s
+
+
+  # metrics_path defaults to '/metrics'
+  # scheme defaults to 'http'.
+
+    static_configs:
+     - targets: ['localhost:8000']
+       labels:
+          group: 'slowapi_metrics'
