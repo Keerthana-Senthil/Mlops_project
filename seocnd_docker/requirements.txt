@@ -1,0 +1,13 @@
+uvicorn
+fastapi
+pandas
+keras
+tensorflow
+prometheus-client
+#typing_extensions==4.0.0
+Pillow
+numpy
+joblib==1.0.1
+starlette
+scikit-learn 
+xgboost
